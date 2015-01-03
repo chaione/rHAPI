@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["Tim Stephenson of RaddOnline"]
-  s.date = "2015-01-02"
+  s.date = "2015-01-03"
   s.description = "Makes it easy to use the HubSpot API in a Ruby application."
   s.email = "tim@raddonline.com"
   s.extra_rdoc_files = [
@@ -55,9 +55,6 @@ Gem::Specification.new do |s|
       s.add_development_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_development_dependency(%q<jeweler>, [">= 1.5.2"])
       s.add_development_dependency(%q<simplecov>, [">= 0"])
-      s.add_runtime_dependency(%q<curb>, ["~> 0.7.12"])
-      s.add_runtime_dependency(%q<json>, [">= 1.5.1"])
-      s.add_runtime_dependency(%q<activesupport>, [">= 0"])
     else
       s.add_dependency(%q<curb>, [">= 0.7.12"])
       s.add_dependency(%q<json>, [">= 1.5.1"])
@@ -66,9 +63,6 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<bundler>, [">= 1.0.0"])
       s.add_dependency(%q<jeweler>, [">= 1.5.2"])
       s.add_dependency(%q<simplecov>, [">= 0"])
-      s.add_dependency(%q<curb>, ["~> 0.7.12"])
-      s.add_dependency(%q<json>, [">= 1.5.1"])
-      s.add_dependency(%q<activesupport>, [">= 0"])
     end
   else
     s.add_dependency(%q<curb>, [">= 0.7.12"])
@@ -78,9 +72,6 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<bundler>, [">= 1.0.0"])
     s.add_dependency(%q<jeweler>, [">= 1.5.2"])
     s.add_dependency(%q<simplecov>, [">= 0"])
-    s.add_dependency(%q<curb>, ["~> 0.7.12"])
-    s.add_dependency(%q<json>, [">= 1.5.1"])
-    s.add_dependency(%q<activesupport>, [">= 0"])
   end
 end
 
